@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: darkmagenta;
+}
+
+#titulo {
+    font-family: sans-serif;
+    color: black;
+    margin-left: 7%;
+    margin-top: -7%;
+}
+
+#subtitulo {
+    font-family: sans-serif;
+    color: black;
+    margin-left: 10%;
+    font-size: 20px;
+    justify-content: space-around;
+    align-content: center;
+    display: flex;
+}
+
+#nav {
+    margin-top: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+fieldset {
+    border: 0;
+}
+
+body {
+    background: white;
+    font-family: sans-serif;
+    font-size: larger;
+    color: black;
+    justify-content: center;
+}
+
+input,
+select,
+textarea,
+button {
+    justify-content: space-around;
+    border-radius: 7px;
+}
+
+.t1 {
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 1em;
+    justify-content: center;
+}
+
+.t1 {
+    margin-bottom: 1em;
+}
+
+.t1 label {
+    margin-bottom: 0.2em;
+    color: black;
+    display: block;
+}
+
+fieldset .conta .t1 {
+    float: left;
+    margin-right: 1em;
+}
+
+.t1 input[type="text"],
+.t1 input[type="email"],
+.t1 input[type="text"],
+.t1 input[type="password"],
+.t1 input[type="password2"],
+.t1 input[type="date"],
+.t1 select,
+.t1 textarea {
+    padding: 0.2em 0.6em;
+    border: 1px solid;
+    display: block;
+}
+
+.t1 select option {
+    padding-right: 1em;
+}
+
+.t1 input:focus,
+.t1 select:focus,
+.t1 textarea:focus {
+    background: white;
+}
+
+.t1 .botao {
+    background: yellow;
+    display: flex;
+    text-decoration: none;
+    padding: 0.2em 0.5em;
+}
+
+#check {
+    display: block;
+}
+
+#footer {
+    height: 25px;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-around;
+    background-color: gray;
+}

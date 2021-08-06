@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <meta charset="UTF=8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Página inicial/css/ppage1.css">
+    <link rel="stylesheet" href="/Página inicial/css/slide de imagem.css">
+    <title>Trabalhando e relaxando nas férias</title>
+</head>
+
+<body>
+    <header id="header">
+        <a id="logo" href="/Página inicial/html/page1.html"><strong>X soccer<strong></a>
+        <a href="/"><strong>Jogos</strong></a>
+        <a href="/noticias/html/noticias.html"><strong>Notícias</strong></a>
+        <a href="/Vendas de ingresso/html/venda1.html"><strong>Vendas de ingressos<strong></a>
+        <a href="/Tela Loggin/Html/loggin.html"><strong>Entrar</strong></a>
+
+        <div class="search">
+            <div class="icon"></div>
+            <div class="input">
+                <input type="text" placeholder="Pesquisar" id="pesquisa">
+            </div>
+            <span class="clean"></span>
+        </div>
+        <script>
+            const icon = document.querySelector('.icon');
+            const search = document.querySelector('.search');
+            icon.onclick = function() {
+                search.classList.toggle('active')
+            }
+        </script>
+    </header>
+    <main id=m ain>
+
+        <div class="slider">
+
+            <div class="slides">
+
+                <input type="radio" name="radio-btn" id="radio1">
+
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <div class="slide first">
+                    <img src="/Página inicial/img/oitavas.png" alt="">
+                </div>
+                <div class="slide">
+
+                    <img src="/Página inicial/img/Quartas7.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/Página inicial/img/Sem título.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/Página inicial/img/Final.png" alt="">
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"> </div>
+                    <div class="auto-btn2"> </div>
+                    <div class="auto-btn3"> </div>
+                    <div class="auto-btn4"> </div>
+                </div>
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"> </label> <label for="radio2" class="manual-btn"> </label> <label for="radio3" class="manual-btn"> </label> <label for="radio4" class="manual-btn"> </label> </div>
+                <script type="text/Javascript">
+                    var counter = 1; setInterval(funcition() { document.getElementById('radio' + counter).checked = true; counter++; if (counter > 4) { counter = 1; } }, 5000);
+                </script>
+            </div>
+        </div>
+        <script src="/Página inicial/Javascript/menu.js">
+        </script>
+        <main>
+            <footer id="footer">
+                <p>@ TODOS OS DIREITOS ESTÃO RESERVADOS AO VSN 2021</p>
+            </footer>
+
+</body>
+
+</html>

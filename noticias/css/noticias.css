@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    display: flex;
+    padding: 1rem;
+    background-color: darkmagenta;
+    height: 70px;
+}
+
+#nav {
+    display: flex;
+    padding: 1rem;
+    background-color: white;
+    height: 70px;
+}
+
+#main {
+    display: flex;
+    padding: 1rem;
+    background-color: lightgray;
+    border-radius: 5px solid black;
+    height: 20px;
+}
+
+#footer {
+    display: flex;
+    padding: 1rem;
+    background-color: gray;
+}

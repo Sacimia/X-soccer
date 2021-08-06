@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    display: flex;
+    padding: 1rem;
+    height: 70px;
+    background-color: darkmagenta;
+}
+
+a {
+    color: white;
+    font-size: large;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    background: darkmagenta
+}
+
+.titulo {
+    font-size: medium;
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.jogos a {
+    color: darkred;
+    display: flex;
+}
+
+.jogos a:hover {
+    display: flex;
+    background: #b6a4a4;
+    color: black;
+}
+
+.q1 {
+    display: flex;
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.q1 .botao1,
+.botao2,
+.botao3,
+.botao4 {
+    display: flex;
+    text-decoration: none;
+    padding: 0.2em 0.6em;
+    margin-bottom: none;
+}
+
+.botao1 {
+    background: darkred;
+}
+
+.botao2 {
+    background: yellow;
+}
+
+.botao3 {
+    background: blue;
+}
+
+#footer {
+    display: flex;
+    padding: 1em;
+    background-color: gray;
+    text-align: center;
+    justify-content: space-around;
+}
